@@ -15,6 +15,7 @@
 		BB71BDA7287EF40700D6299E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB71BDA5287EF40700D6299E /* LaunchScreen.storyboard */; };
 		BB71BDB3287EFE5B00D6299E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB2287EFE5B00D6299E /* Reminder.swift */; };
 		BB71BDB5287F250500D6299E /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB4287F250500D6299E /* Date+Today.swift */; };
+		BB71BDB8287F280500D6299E /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB7287F280500D6299E /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BB71BDA8287EF40700D6299E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB71BDB2287EFE5B00D6299E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		BB71BDB4287F250500D6299E /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		BB71BDB7287F280500D6299E /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 				BB71BDB1287EFE5300D6299E /* Models */,
 				BB71BD9A287EF40600D6299E /* AppDelegate.swift */,
 				BB71BD9C287EF40600D6299E /* SceneDelegate.swift */,
-				BB71BD9E287EF40600D6299E /* ReminderListViewController.swift */,
+				BB71BDB6287F27DF00D6299E /* ListViewController */,
 				BB71BDA0287EF40600D6299E /* Main.storyboard */,
 				BB71BDA3287EF40700D6299E /* Assets.xcassets */,
 				BB71BDA5287EF40700D6299E /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				BB71BDB4287F250500D6299E /* Date+Today.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BB71BDB6287F27DF00D6299E /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB71BD9E287EF40600D6299E /* ReminderListViewController.swift */,
+				BB71BDB7287F280500D6299E /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				BB71BD9B287EF40600D6299E /* AppDelegate.swift in Sources */,
 				BB71BD9D287EF40600D6299E /* SceneDelegate.swift in Sources */,
 				BB71BDB3287EFE5B00D6299E /* Reminder.swift in Sources */,
+				BB71BDB8287F280500D6299E /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
