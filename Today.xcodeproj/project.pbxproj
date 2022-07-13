@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6D0133287F2C3900CFA778 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D0132287F2C3900CFA778 /* UIColor+Today.swift */; };
 		BB71BD9B287EF40600D6299E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BD9A287EF40600D6299E /* AppDelegate.swift */; };
 		BB71BD9D287EF40600D6299E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BD9C287EF40600D6299E /* SceneDelegate.swift */; };
 		BB71BD9F287EF40600D6299E /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BD9E287EF40600D6299E /* ReminderListViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB6D0132287F2C3900CFA778 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		BB71BD97287EF40600D6299E /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB71BD9A287EF40600D6299E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB71BD9C287EF40600D6299E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				BB71BDB2287EFE5B00D6299E /* Reminder.swift */,
 				BB71BDB4287F250500D6299E /* Date+Today.swift */,
+				BB6D0132287F2C3900CFA778 /* UIColor+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6D0133287F2C3900CFA778 /* UIColor+Today.swift in Sources */,
 				BB71BD9F287EF40600D6299E /* ReminderListViewController.swift in Sources */,
 				BB71BDB5287F250500D6299E /* Date+Today.swift in Sources */,
 				BB71BD9B287EF40600D6299E /* AppDelegate.swift in Sources */,
