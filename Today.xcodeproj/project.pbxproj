@@ -14,6 +14,7 @@
 		BB71BDA4287EF40700D6299E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB71BDA3287EF40700D6299E /* Assets.xcassets */; };
 		BB71BDA7287EF40700D6299E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB71BDA5287EF40700D6299E /* LaunchScreen.storyboard */; };
 		BB71BDB3287EFE5B00D6299E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB2287EFE5B00D6299E /* Reminder.swift */; };
+		BB71BDB5287F250500D6299E /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB4287F250500D6299E /* Date+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BB71BDA6287EF40700D6299E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB71BDA8287EF40700D6299E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB71BDB2287EFE5B00D6299E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		BB71BDB4287F250500D6299E /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				BB71BDB2287EFE5B00D6299E /* Reminder.swift */,
+				BB71BDB4287F250500D6299E /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB71BD9F287EF40600D6299E /* ReminderListViewController.swift in Sources */,
+				BB71BDB5287F250500D6299E /* Date+Today.swift in Sources */,
 				BB71BD9B287EF40600D6299E /* AppDelegate.swift in Sources */,
 				BB71BD9D287EF40600D6299E /* SceneDelegate.swift in Sources */,
 				BB71BDB3287EFE5B00D6299E /* Reminder.swift in Sources */,
