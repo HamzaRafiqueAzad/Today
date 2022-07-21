@@ -46,7 +46,5 @@ class ReminderListViewController: UICollectionViewController {
         showDetail(for: id)
         return false
     }
-
-
 }
 
