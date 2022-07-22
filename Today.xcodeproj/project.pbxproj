@@ -21,6 +21,7 @@
 		BB71BDB3287EFE5B00D6299E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB2287EFE5B00D6299E /* Reminder.swift */; };
 		BB71BDB5287F250500D6299E /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB4287F250500D6299E /* Date+Today.swift */; };
 		BB71BDB8287F280500D6299E /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71BDB7287F280500D6299E /* ReminderListViewController+DataSource.swift */; };
+		BB782C86288B1BA700506035 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782C85288B1BA700506035 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BB71BDB2287EFE5B00D6299E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		BB71BDB4287F250500D6299E /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		BB71BDB7287F280500D6299E /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		BB782C85288B1BA700506035 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BB6D01382881782100CFA778 /* ReminderViewController.swift */,
 				BB6D013D28817C0B00CFA778 /* ReminderViewController+Row.swift */,
+				BB782C85288B1BA700506035 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB782C86288B1BA700506035 /* ReminderViewController+Section.swift in Sources */,
 				BB6D0133287F2C3900CFA778 /* UIColor+Today.swift in Sources */,
 				BB6D01372880433B00CFA778 /* ReminderListViewController+Actions.swift in Sources */,
 				BB6D01392881782100CFA778 /* ReminderViewController.swift in Sources */,
